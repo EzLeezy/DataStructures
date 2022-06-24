@@ -1,17 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
- */
-package com.mycompany.dynamicarray;
 
 /**
  *
  * @author leecampbell
  */
-public class DynamicArray {
+public class MainClass {
 
     public static void main(String[] args) {
-        Array ar =new Array();
+        DynamicArray ar = new DynamicArray();
         
         //DynamicArr ar = new DynamicArr();
         ar.add(20);
