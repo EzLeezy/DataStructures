@@ -11,17 +11,17 @@ package com.mycompany.dynamicarray;
  */
 @SuppressWarnings("unchecked")
 
-public class Array<T> implements Iterable<T> {
+public class DynamicArray<T> implements Iterable<T> {
 
     private T arr[];
     private int len = 0; //length user thinks size is
     private int capacity = 0; //actual array size
 
-    public Array() {
+    public DynamicArray() {
         this(16); //initalise the size of 16
     }
 
-    public Array(int capacity) {
+    public DynamicArray(int capacity) {
         if (capacity < 0) {
             throw new IllegalArgumentException("Illegal Capacity: " + capacity);
         }
